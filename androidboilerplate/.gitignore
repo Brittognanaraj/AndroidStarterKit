@@ -5,3 +5,4 @@ build
 local.properties
 gradle.properties
 build.gradle
+.idea/caches/build_file_checksums.ser
