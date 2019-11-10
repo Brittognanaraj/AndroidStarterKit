@@ -21,15 +21,15 @@ allprojects {
 Add it in your build.gradle (dependencies)
 
 ```groovy
-    compile 'com.github.bgrgit:androidBoilerplate:2.0'
+    implementation 'com.github.Brittognanaraj:AndroidStarterKit:2.0'
 ```
 
 or Download via Maven
 
 ```Maven
 <dependency>
-	    <groupId>com.github.bgrgit</groupId>
-	    <artifactId>androidBoilerplate</artifactId>
+	    <groupId>com.github.Brittognanaraj</groupId>
+	    <artifactId>AndroidStarterKit</artifactId>
 	    <version>2.0</version>
 </dependency>
  ```
