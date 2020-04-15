@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidBoilerPlate.iml" filepath="$PROJECT_DIR$/AndroidBoilerPlate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StarterKit.iml" filepath="$PROJECT_DIR$/StarterKit.iml" />
       <module fileurl="file://$PROJECT_DIR$/androidboilerplate/androidboilerplate.iml" filepath="$PROJECT_DIR$/androidboilerplate/androidboilerplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
