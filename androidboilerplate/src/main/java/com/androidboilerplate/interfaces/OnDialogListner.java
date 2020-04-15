@@ -7,7 +7,7 @@ import android.content.DialogInterface;
  */
 public interface OnDialogListner {
 
-    public void onPositiveButtonClick(String whichDialog);
-    public void onNegativeButtonClick(DialogInterface dialog);
+    public void onPositiveButtonClick(String whichDialog,DialogInterface dialog);
+    public void onNegativeButtonClick(String whichDialog,DialogInterface dialog);
 
 }
