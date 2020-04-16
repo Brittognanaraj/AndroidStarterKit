@@ -21,7 +21,7 @@ allprojects {
 Add it in your build.gradle (dependencies)
 
 ```groovy
-    implementation 'com.github.Brittognanaraj:AndroidStarterKit:2.0'
+    implementation 'com.github.Brittognanaraj:AndroidStarterKit:6.2'
 ```
 
 or Download via Maven
@@ -57,6 +57,16 @@ Used to create a single button alert dialog builder
 
 ```java        
 AlertDialogBuilder.getInstance().showSingleButtonDialog("Title","Message","OK",this);
+```
+
+Used to create a single button alert dialog builder with listener
+
+```java
+public class MainActivity extends AppCompatActivity implements OnSingleBtnDialogListener
+```
+
+```java
+ AlertDialogBuilder.getInstance().showErrorDialog("Title","Message","OK",this,this)
 ```
 
 #### Network connection check
