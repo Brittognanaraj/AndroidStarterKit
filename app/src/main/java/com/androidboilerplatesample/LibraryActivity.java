@@ -1,10 +1,9 @@
 package com.androidboilerplatesample;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.androidboilerplate.R;
-import com.androidboilerplate.utils.StringUtil;
+import androidx.appcompat.app.AppCompatActivity;
+
 
 public class LibraryActivity extends AppCompatActivity {
 

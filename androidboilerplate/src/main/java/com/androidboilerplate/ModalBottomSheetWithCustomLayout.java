@@ -1,14 +1,17 @@
 package com.androidboilerplate;
 
+import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 
-import android.support.design.widget.BottomSheetBehavior;
-import android.support.design.widget.BottomSheetDialogFragment;
-import android.support.design.widget.CoordinatorLayout;
 import android.view.View;
 import android.view.ViewTreeObserver;
+
+import androidx.annotation.Nullable;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
+import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
 public class ModalBottomSheetWithCustomLayout extends BottomSheetDialogFragment {
 
@@ -37,6 +40,7 @@ public class ModalBottomSheetWithCustomLayout extends BottomSheetDialogFragment 
 
     private void setPeekHeightOfBottomSheet(){
         inflateView.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
+            @SuppressLint("NewApi")
             @Override
             public void onGlobalLayout() {
                 inflateView.getViewTreeObserver().removeOnGlobalLayoutListener(this);
